@@ -1,9 +1,7 @@
-import { welcome } from '../src'
+import { fuzzysearch } from '../src'
 
-describe('index', () => {
-  test('demo part', () => {
-    console.log = jest.fn()
-    welcome()
-    expect(console.log).toHaveBeenCalledWith('hello world')
+describe('fuzzysearch', () => {
+  test('search', () => {
+    expect(fuzzysearch.search('love').slice(0, 10)).toMatchSnapshot()
   })
 })

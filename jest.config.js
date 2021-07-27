@@ -1,3 +1,5 @@
+const { jsWithBabelESM } = require('ts-jest/presets')
+
 module.exports = {
   cacheDirectory: './jest/cache',
   collectCoverage: true,
@@ -15,8 +17,13 @@ module.exports = {
   moduleNameMapper: {
     '@/(.*)': '<rootDir>/src/$1',
   },
+  transform: {
+    ...jsWithBabelESM.transform,
+  },
+  moduleDirectories: ['node_modules'],
+  transformIgnorePatterns: ['node_modules/((?!gemoji))/index.js'],
   roots: ['<rootDir>/test'],
   moduleFileExtensions: ['js', 'json', 'jsx', 'ts', 'tsx', 'node'],
   testRegex: '/test/.+\\.test\\.tsx?$',
-  verbose: false,
+  verbose: true,
 }

@@ -1,7 +1,6 @@
-import { Table } from './md'
+import Fuzzysearch from 'fuzzy-search'
+import { gemoji } from 'gemoji'
 
-Table()
-
-export const welcome = () => {
-  console.log('hello world')
-}
+export const fuzzysearch = new Fuzzysearch(gemoji, ['names', 'tags', 'descriptions'], {
+  sort: true,
+})

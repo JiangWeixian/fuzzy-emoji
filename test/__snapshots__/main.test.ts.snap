@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fuzzysearch search 1`] = `
+Array [
+  Object {
+    "category": "Smileys & Emotion",
+    "description": "smiling face with hearts",
+    "emoji": "🥰",
+    "names": Array [
+      "smiling_face_with_three_hearts",
+    ],
+    "tags": Array [
+      "love",
+    ],
+  },
+  Object {
+    "category": "Smileys & Emotion",
+    "description": "smiling face with heart-eyes",
+    "emoji": "😍",
+    "names": Array [
+      "heart_eyes",
+    ],
+    "tags": Array [
+      "love",
+      "crush",
+    ],
+  },
+  Object {
+    "category": "Smileys & Emotion",
+    "description": "heart with arrow",
+    "emoji": "💘",
+    "names": Array [
+      "cupid",
+    ],
+    "tags": Array [
+      "love",
+      "heart",
+    ],
+  },
+  Object {
+    "category": "Smileys & Emotion",
+    "description": "red heart",
+    "emoji": "❤️",
+    "names": Array [
+      "heart",
+    ],
+    "tags": Array [
+      "love",
+    ],
+  },
+  Object {
+    "category": "Smileys & Emotion",
+    "description": "love letter",
+    "emoji": "💌",
+    "names": Array [
+      "love_letter",
+    ],
+    "tags": Array [
+      "email",
+      "envelope",
+    ],
+  },
+  Object {
+    "category": "People & Body",
+    "description": "love-you gesture",
+    "emoji": "🤟",
+    "names": Array [
+      "love_you_gesture",
+    ],
+    "tags": Array [],
+  },
+  Object {
+    "category": "Travel & Places",
+    "description": "love hotel",
+    "emoji": "🏩",
+    "names": Array [
+      "love_hotel",
+    ],
+    "tags": Array [],
+  },
+  Object {
+    "category": "Activities",
+    "description": "boxing glove",
+    "emoji": "🥊",
+    "names": Array [
+      "boxing_glove",
+    ],
+    "tags": Array [],
+  },
+  Object {
+    "category": "Objects",
+    "description": "gloves",
+    "emoji": "🧤",
+    "names": Array [
+      "gloves",
+    ],
+    "tags": Array [],
+  },
+  Object {
+    "category": "Flags",
+    "description": "flag: Slovenia",
+    "emoji": "🇸🇮",
+    "names": Array [
+      "slovenia",
+    ],
+    "tags": Array [],
+  },
+]
+`;

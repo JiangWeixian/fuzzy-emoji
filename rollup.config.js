@@ -23,6 +23,7 @@ export default [
       // exclude dependencies and peerDependencies
       excludeDependenciesFromBundle({
         peerDependencies: true,
+        dependencies: false,
       }),
       // console.log bundle file size
       bundleSize(),
