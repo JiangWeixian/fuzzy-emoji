@@ -1,5 +1,11 @@
 # @aiou/rollup-template
 
+## 1.0.1
+
+### Patch Changes
+
+- docs
+
 ## 1.0.0
 
 ### Major Changes
