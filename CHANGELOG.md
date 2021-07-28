@@ -1,5 +1,11 @@
 # @aiou/rollup-template
 
+## 1.0.3
+
+### Patch Changes
+
+- esm
+
 ## 1.0.2
 
 ### Patch Changes

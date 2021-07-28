@@ -43,7 +43,6 @@ export default [
   // `file` and `format` for each target)
   {
     input: 'src/index.ts',
-    external: ['ms'],
     plugins: [
       typescript(), // so Rollup can convert TypeScript to JavaScript
       alias({
@@ -52,9 +51,6 @@ export default [
       }),
       bundleSize(),
     ],
-    output: [
-      { file: pkg.main, format: 'cjs' },
-      { file: pkg.module, format: 'es' },
-    ],
+    output: [{ file: pkg.module, format: 'es' }],
   },
 ]
