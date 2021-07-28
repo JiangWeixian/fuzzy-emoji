@@ -1,5 +1,11 @@
 # @aiou/rollup-template
 
+## 1.0.2
+
+### Patch Changes
+
+- add types folder
+
 ## 1.0.1
 
 ### Patch Changes
