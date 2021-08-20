@@ -7,7 +7,7 @@
 # features
 
 ```ts
-fuzzysearch.search('love')
+fuzzysearch.search('lve')
 
 //output: ["🥰", "😍", "💘"]
 ```
