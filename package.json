@@ -62,7 +62,7 @@
     "prettier": "2.3.2",
     "pretty-quick": "3.1.1",
     "rimraf": "3.0.2",
-    "rollup": "2.56.2",
+    "rollup": "2.56.3",
     "rollup-plugin-bundle-size": "^1.0.3",
     "rollup-plugin-exclude-dependencies-from-bundle": "^1.1.20",
     "rollup-plugin-typescript2": "0.30.0",
